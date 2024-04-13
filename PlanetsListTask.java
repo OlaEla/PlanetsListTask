@@ -34,7 +34,10 @@ public class PlanetsListTask {
         planets.add("Юпитер");
         planets.add("Марс");
         planets.add("Сатурн");
+        planets.add("Плутон");
+        planets.add("Облако оорта");
         System.out.println(planets);
+        // showCountOfPlanet(planets);
         // showCountOfPlanet(planets);
         deleteDuplicates(planets);
         System.out.println(planets);
