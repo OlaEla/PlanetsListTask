@@ -1,6 +1,7 @@
-package PlanetsListTask;
+package PlanetsListTask.PlanetsListTask;
 
 // Задание №2.1
+
 // 📌 Заполнить список названиями планет Солнечной
 // системы в произвольном порядке с повторениями.
 // 📌 Вывести название каждой планеты и количество его
@@ -9,8 +10,6 @@ package PlanetsListTask;
 // Задание №2.2 (если выполнено первое задание)
 // 📌 Пройти по списку из предыдущего задания и удалить
 // повторяющиеся элементы.
-
-
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,8 +30,10 @@ public class PlanetsListTask {
         planets.add("Сатурн");
         planets.add("Земля");
         planets.add("Юпитер");
+        planets.add("Земля");
+        planets.add("Юпитер");
         System.out.println(planets);
-        //showCountOfPlanet(planets);
+        // showCountOfPlanet(planets);
         deleteDuplicates(planets);
         System.out.println(planets);
 
